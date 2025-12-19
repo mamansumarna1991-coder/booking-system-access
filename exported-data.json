@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "cmjbghclj0000mpca9g8p3x10",
+      "username": "admin",
+      "email": "admin@example.com",
+      "name": "Admin User",
+      "password": "$2b$10$bqKcZpvlpdIvLxo9m9dbBOtuT9MVynclmrQxz5ok6lWItERXUXi7e",
+      "role": "ADMIN",
+      "createdAt": "2025-12-18T13:08:05.767Z",
+      "updatedAt": "2025-12-18T13:08:05.767Z"
+    },
+    {
+      "id": "cmjbghco00001mpcazm985jrf",
+      "username": "maker",
+      "email": "maker@example.com",
+      "name": "Maker User",
+      "password": "$2b$10$8mBFfLV2.XDzncwV0HHnqOGgKTqy/6NHE6f/7xI2VtxBeOoH50ylK",
+      "role": "MAKER",
+      "createdAt": "2025-12-18T13:08:05.856Z",
+      "updatedAt": "2025-12-18T13:08:05.856Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "cmjbghco20002mpca4v0ve674",
+      "name": "Meeting Room",
+      "description": "Ruang meeting untuk 10-20 orang",
+      "price": 500000,
+      "duration": 120,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.858Z",
+      "updatedAt": "2025-12-18T13:08:05.858Z"
+    },
+    {
+      "id": "cmjbghco30003mpcakfswf2ip",
+      "name": "Conference Hall",
+      "description": "Aula konferensi untuk 100-200 orang",
+      "price": 2000000,
+      "duration": 240,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.859Z",
+      "updatedAt": "2025-12-18T13:08:05.859Z"
+    },
+    {
+      "id": "cmjbghco40004mpca4tpav8tr",
+      "name": "Training Room",
+      "description": "Ruang training dengan fasilitas lengkap",
+      "price": 750000,
+      "duration": 180,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.860Z",
+      "updatedAt": "2025-12-18T13:08:05.860Z"
+    },
+    {
+      "id": "cmjbghco50005mpcaurqmez44",
+      "name": "Event Space",
+      "description": "Ruang acara outdoor/indoor",
+      "price": 1500000,
+      "duration": 300,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.861Z",
+      "updatedAt": "2025-12-18T13:08:05.861Z"
+    },
+    {
+      "id": "cmjbghco60006mpcaj3x958u6",
+      "name": "Photo Studio",
+      "description": "Studio foto dengan lighting lengkap",
+      "price": 400000,
+      "duration": 120,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.862Z",
+      "updatedAt": "2025-12-18T13:08:05.862Z"
+    },
+    {
+      "id": "cmjbghco70007mpca4n7fzvin",
+      "name": "Recording Studio",
+      "description": "Studio rekaman profesional",
+      "price": 1000000,
+      "duration": 180,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.863Z",
+      "updatedAt": "2025-12-18T13:08:05.863Z"
+    },
+    {
+      "id": "cmjbghco80008mpcanwvrnc9n",
+      "name": "Workshop Space",
+      "description": "Ruang workshop untuk 30-50 orang",
+      "price": 800000,
+      "duration": 240,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.865Z",
+      "updatedAt": "2025-12-18T13:08:05.865Z"
+    },
+    {
+      "id": "cmjbghco90009mpcagdgx1bdi",
+      "name": "Outdoor Event",
+      "description": "Area outdoor untuk acara besar",
+      "price": 3000000,
+      "duration": 360,
+      "isActive": true,
+      "createdAt": "2025-12-18T13:08:05.866Z",
+      "updatedAt": "2025-12-18T13:08:05.866Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "cmjbh42lq000bmpk2sntjw164",
+      "userId": "cmjbghco00001mpcazm985jrf",
+      "serviceId": "cmjbghco40004mpca4tpav8tr",
+      "serviceName": "Training Room",
+      "bookingDate": "2025-12-20T00:00:00.000Z",
+      "bookingTime": "17:00",
+      "customerName": "Maman Sumarna",
+      "customerEmail": "mamansumarna24@gmail.com",
+      "customerPhone": "081337141991",
+      "address": "Kp. Cisaat Ciater Subang",
+      "notes": "",
+      "status": "APPROVED",
+      "price": 750000,
+      "createdAt": "2025-12-18T13:25:45.903Z",
+      "updatedAt": "2025-12-18T13:48:35.869Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "cmjbh8fmn000hmpk2remrhp5z",
+      "bookingId": "cmjbh42lq000bmpk2sntjw164",
+      "amount": 1200000,
+      "method": "CASH",
+      "status": "COMPLETED",
+      "paymentDate": "2025-12-18T13:42:48.791Z",
+      "proofUrl": null,
+      "notes": null,
+      "createdAt": "2025-12-18T13:29:09.408Z",
+      "updatedAt": "2025-12-18T13:42:48.793Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "cmjbh6zgb000dmpk258ls78q6",
+      "invoiceNumber": "INV-1766064481762-GJ67DJIMY",
+      "bookingId": "cmjbh42lq000bmpk2sntjw164",
+      "amount": 1200000,
+      "dueDate": "2025-12-20T00:00:00.000Z",
+      "status": "DRAFT",
+      "createdAt": "2025-12-18T13:28:01.788Z",
+      "updatedAt": "2025-12-18T13:28:01.788Z"
+    },
+    {
+      "id": "cmjbh6zzi000fmpk2i142s22y",
+      "invoiceNumber": "INV-1766064482478-XH8GF7IJP",
+      "bookingId": "cmjbh42lq000bmpk2sntjw164",
+      "amount": 1200000,
+      "dueDate": "2025-12-20T00:00:00.000Z",
+      "status": "DRAFT",
+      "createdAt": "2025-12-18T13:28:02.479Z",
+      "updatedAt": "2025-12-18T13:28:02.479Z"
+    }
+  ]
+}
